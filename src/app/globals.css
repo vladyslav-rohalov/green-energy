@@ -1,15 +1,14 @@
 :root {
-  --font-promary: Oswald;
+  --font-primary: Oswald;
   --font-seconady: Fira Sans;
 
-  --background-main-color: #F3F5FA;
-  --background-accent-color: #EAEDF1;
+  --background-main-color: #f3f5fa;
+  --background-accent-color: #eaedf1;
   --background-menu-color: rgba(23, 61, 51, 0.75);
-  
-  --primary-main-color: #173D33;
-  --primary-accent-color: #97D28B;
-  --primary-light-color: #FFFFFF;
 
+  --primary-main-color: #173d33;
+  --primary-accent-color: #97d28b;
+  --primary-light-color: #ffffff;
 }
 
 * {
@@ -27,13 +26,9 @@ body {
 body {
   color: (var(--primary-main-color));
   background: (var(--background-main-color));
-
- 
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-
-
