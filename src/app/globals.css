@@ -1,0 +1,39 @@
+:root {
+  --font-promary: Oswald;
+  --font-seconady: Fira Sans;
+
+  --background-main-color: #F3F5FA;
+  --background-accent-color: #EAEDF1;
+  --background-menu-color: rgba(23, 61, 51, 0.75);
+  
+  --primary-main-color: #173D33;
+  --primary-accent-color: #97D28B;
+  --primary-light-color: #FFFFFF;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: (var(--primary-main-color));
+  background: (var(--background-main-color));
+
+ 
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
