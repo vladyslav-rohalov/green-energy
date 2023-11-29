@@ -1,4 +1,4 @@
-.about_container {
+.about_section {
   margin-top: 36px;
 }
 
@@ -9,6 +9,7 @@
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .about_text {

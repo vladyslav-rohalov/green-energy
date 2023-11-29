@@ -1,0 +1,43 @@
+.electro_section {
+  margin-top: 36px;
+}
+
+.electro_title {
+  font-family: var(--font-primary);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.electro_divider {
+  height: 48px;
+  width: 1px;
+  border-left: 1px solid var(--primary-accent-color);
+  margin: 24px auto;
+}
+
+.electro_counter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary-accent-color);
+  font-family: var(--font-primary);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.electro_counter_prefix {
+  color: var(--primary-main-color);
+  font-family: var(--font-primary);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}

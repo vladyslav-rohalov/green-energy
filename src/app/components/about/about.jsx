@@ -5,7 +5,7 @@ import styles from './about.module.css';
 
 export default function About() {
   return (
-    <section className={styles.about_container}>
+    <section className={styles.about_section}>
       <h2 className={styles.about_title}>Main values of our company</h2>
       <p className={styles.about_text}>
         EcoSolution envisions a world where sustainable energy solutions power a
