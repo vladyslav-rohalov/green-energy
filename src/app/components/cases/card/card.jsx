@@ -5,7 +5,7 @@ import styles from './card.module.css';
 export default function SwiperCard({ item, priority }) {
   const { url, title, description, date } = item;
   return (
-    <li className={styles.swiper_card}>
+    <div className={styles.swiper_card}>
       <div className={styles.swiper_card_img_container}>
         <Image
           src={url}
@@ -17,21 +17,21 @@ export default function SwiperCard({ item, priority }) {
       </div>
       <div className={styles.swiper_card_content}>
         <div className={styles.swiper_card_row}>
-          <p className={styles.swiper_card_title}>{title}</p>
+          <h3 className={styles.swiper_card_title}>{title}</h3>
           <button className={styles.swiper_card_btn}>
             <IconArrow width={28} height={28} rotate={-45} />
           </button>
         </div>
         <div className={styles.swiper_card_divider}></div>
         <div className={styles.swiper_card_row}>
-          <p
+          <h4
             className={`${styles.swiper_card_descripton} ${styles.swiper_card_text}`}
           >
             {description}
-          </p>
+          </h4>
           <p className={styles.swiper_card_text}>{date}</p>
         </div>
       </div>
-    </li>
+    </div>
   );
 }
