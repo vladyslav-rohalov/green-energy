@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import IconArrow from '@/app/utils/svg/arrow';
 import styles from './feedbackForm.module.css';
@@ -22,9 +21,6 @@ export default function FeedbackForm() {
     console.log(data);
   };
 
-  useEffect(() => {
-    console.log(errors);
-  }, [errors]);
   return (
     <form
       onSubmit={handleSubmit(data => handleRegister(data))}
