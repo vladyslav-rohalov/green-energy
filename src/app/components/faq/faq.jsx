@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import AccordionItem from './accordion/item/item';
+import IconDot from '@/app/utils/svg/dot';
 import { accordionData } from './accordion/data';
 import styles from './faq.module.css';
 
@@ -18,6 +19,7 @@ export default function Faq() {
       {accordionData.map((item, index) => {
         return (
           <AccordionItem
+            key={item.id}
             item={item}
             index={index}
             open={open}
@@ -25,6 +27,12 @@ export default function Faq() {
           />
         );
       })}
+      <p className={styles.faq_text}>
+        Didn't find the answer to your question?{' '}
+      </p>
+      <button className={styles.faq_btn}>
+        Contact Us <IconDot />
+      </button>
     </section>
   );
 }

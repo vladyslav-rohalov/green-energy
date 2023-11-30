@@ -3,6 +3,7 @@ import About from './components/about/about';
 import Electrocity from './components/electrocity/electrocity';
 import Cases from './components/cases/cases';
 import Faq from './components/faq/faq';
+import Conatacts from './components/contacts/contacts';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Electrocity />
       <Cases />
       <Faq />
+      <Conatacts />
     </div>
   );
 }

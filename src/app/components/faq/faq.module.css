@@ -11,3 +11,27 @@
   text-align: left;
   text-transform: uppercase;
 }
+
+.faq_text {
+  font-family: var(--font-seconady);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  margin-top: 36px;
+}
+
+.faq_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 130px;
+  height: 39px;
+  border: none;
+  border-radius: 500px;
+  background-color: var(--primary-accent-color);
+  margin: 12px auto;
+  cursor: pointer;
+}

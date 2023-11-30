@@ -9,6 +9,7 @@
   --primary-main-color: #173d33;
   --primary-accent-color: #97d28b;
   --primary-light-color: #ffffff;
+  --primary-error-color: #d28b8b;
 }
 
 * {
@@ -31,4 +32,9 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
 }
