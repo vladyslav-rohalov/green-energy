@@ -6,6 +6,11 @@
   height: 40px;
   border: none;
   border-radius: 50%;
-  background-color: var(--primary-accent-color);
+  background-color: #dcefd8;
   cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.button_burger:hover {
+  background-color: #97d28b;
 }

@@ -4,7 +4,7 @@ import styles from './main.module.css';
 
 export default function Main() {
   return (
-    <section className={styles.main_container}>
+    <section className={styles.main_container} id="main">
       <h1 className={styles.text_left}>RENEWABLE ENERGY For any task</h1>
       <div className={styles.right_container}>
         <p className={styles.text_right}>

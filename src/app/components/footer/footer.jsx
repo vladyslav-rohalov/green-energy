@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Logo from '../header/logo/logo';
 import IconArrow from '@/app/utils/svg/arrow';
 import { IconFacebook, IconInstagram } from '@/app/utils/svg/social';
@@ -9,9 +10,11 @@ export default function Footer() {
       <div className={styles.footer_divider}></div>
       <div className={styles.footer_row}>
         <Logo />
-        <button className={styles.footer_btn}>
-          <IconArrow width={16} height={16} rotate={-90} />
-        </button>
+        <Link href={'#main'}>
+          <button className={styles.footer_btn}>
+            <IconArrow width={16} height={16} rotate={-90} />
+          </button>
+        </Link>
       </div>
       <div className={styles.footer_social}>
         <a href={'https://www.facebook.com/'}>
