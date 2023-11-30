@@ -1,4 +1,4 @@
-const cardData = [
+export const cardData = [
   {
     id: 1,
     url: '/sw1.jpg',
