@@ -1,0 +1,30 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 140px;
+  height: 39px;
+  background-color: #97d28b;
+  border: none;
+  border-radius: 500px;
+  color: #173d33;
+  margin-left: 12px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  background-color: #173d33;
+  color: #97d28b;
+}
+
+.button_span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  background-color: #97d28b;
+  border-radius: 50%;
+}

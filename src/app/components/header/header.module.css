@@ -5,6 +5,12 @@
   padding: 36px 20px;
   z-index: 999;
   transition: background-color 0.5s ease;
+  @media (min-width: 480px) {
+    padding: 36px 30px;
+  }
+  @media (min-width: 768px) {
+    padding: 24px 100px;
+  }
 }
 
 .header.scrolled {
@@ -16,4 +22,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.header_row {
+  display: flex;
+  flex-direction: row;
 }
