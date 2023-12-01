@@ -14,7 +14,7 @@ export default function Faq() {
   };
 
   return (
-    <section className={styles.faq_section}>
+    <section className={styles.faq_section} id="faq">
       <h2 className={styles.faq_title}>Frequently Asked Questions</h2>
       {accordionData.map((item, index) => {
         return (

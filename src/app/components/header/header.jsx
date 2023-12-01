@@ -4,7 +4,7 @@ import Logo from './logo/logo';
 import BurgerMenu from './burgerMenu/burgerMenu';
 import GetInTouch from './getInTouch/getInTouch';
 import Modal from '../modal/modal';
-import MobileMenu from '../modal/modal';
+import MobileMenu from '../mobileMenu/mobileMenu';
 import styles from './header.module.css';
 
 export default function Header() {
@@ -39,7 +39,7 @@ export default function Header() {
       </header>
       {mobileOpen && (
         <Modal onClose={() => setMobileOpen(false)}>
-          <p>123</p>
+          <MobileMenu onClose={() => setMobileOpen(false)} />
         </Modal>
       )}
     </>

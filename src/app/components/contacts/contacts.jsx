@@ -1,12 +1,12 @@
 'use client';
 import { IconPhone, IconMail, IconMap } from '@/app/utils/svg/contacts';
-import { IconFacebook, IconInstagram } from '@/app/utils/svg/social';
+import Social from './social/social';
 import FeedbackForm from './feedbackForm/feedbackForm';
 import styles from './contacts.module.css';
 
 export default function Conatacts() {
   return (
-    <section className={styles.contacts_section} id='contacts'>
+    <section className={styles.contacts_section} id="contact">
       <h2 className={styles.contacts_title}>Contact us</h2>
       <h3 className={styles.contacts_subtitle}>Phone:</h3>
       <div className={styles.contacts_row}>
@@ -30,21 +30,7 @@ export default function Conatacts() {
         </p>
       </div>
       <h3 className={styles.contacts_subtitle}> Social Networks:</h3>
-      <div className={styles.contacts_row}>
-        <a
-          className={styles.contacts_social_container}
-          href={'https://www.facebook.com/'}
-        >
-          <IconFacebook />
-        </a>
-
-        <a
-          className={styles.contacts_social_container}
-          href={'https://www.instagram.com/'}
-        >
-          <IconInstagram />
-        </a>
-      </div>
+      <Social />
       <FeedbackForm />
     </section>
   );

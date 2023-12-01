@@ -22,7 +22,7 @@ export default function Cases() {
   };
 
   return (
-    <section className={styles.cases_section}>
+    <section className={styles.cases_section} id="cases">
       <h2 className={styles.cases_title}>Successful cases of our company</h2>
       <div className={styles.cases_navigate}>
         <p className={styles.cases_pointer}>
