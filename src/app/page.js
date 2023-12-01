@@ -7,13 +7,13 @@ import Conatacts from './components/contacts/contacts';
 
 export default function Home() {
   return (
-    <div>
+    <main className="main">
       <Main />
       <About />
       <Electrocity />
       <Cases />
       <Faq />
       <Conatacts />
-    </div>
+    </main>
   );
 }

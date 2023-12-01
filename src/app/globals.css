@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Oswald:wght@400;500&display=swap');
+
 :root {
-  --font-primary: Oswald;
-  --font-seconady: Fira Sans;
+  --font-oswald: 'Oswald', sans-serif;
+  --font-fira: 'Fira Sans', sans-serif;
 
   --background-main-color: #f3f5fa;
   --background-accent-color: #eaedf1;
@@ -27,6 +29,17 @@ body {
   min-height: 100vh;
   color: #173d33;
   background-color: #f3f5fa;
+  scroll-behavior: smooth !important;
+  font-family: var(--font-fira);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-oswald);
 }
 
 main {
