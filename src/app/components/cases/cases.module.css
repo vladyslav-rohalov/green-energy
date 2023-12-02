@@ -93,4 +93,8 @@
     width: 84px;
     height: 84px;
   }
+
+  .vertical_divider {
+    height: 96px;
+  }
 }

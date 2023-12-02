@@ -19,12 +19,11 @@
 }
 
 .accordion_column_content {
-  /* width: calc(100% - 16px - 8px); */
   padding-left: 24px;
 }
 
 .accordion_tile {
-  font-family: var(--font-seconady);
+  font-family: var(--font-fira);
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -34,10 +33,23 @@
 
 .accordion_text {
   margin-top: 16px;
-  font-family: var(--font-seconady);
+  font-family: var(--font-fira);
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
   letter-spacing: -0.04em;
   text-align: justify;
+}
+
+@media (min-width: 1280px) {
+  .accordion_tile {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  .accordion_text {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 19.2px;
+  }
 }
