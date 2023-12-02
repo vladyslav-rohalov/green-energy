@@ -3,8 +3,6 @@ import styles from './features.module.css';
 export function IconOpennes() {
   return (
     <svg
-      // width="16"
-      // height="16"
       className={styles.svg}
       viewBox="0 0 16 16"
       fill="none"
@@ -63,8 +61,6 @@ export function IconOpennes() {
 export function IconResponsibility() {
   return (
     <svg
-      // width="16"
-      // height="16"
       className={styles.svg}
       viewBox="0 0 16 16"
       fill="none"
@@ -136,8 +132,6 @@ export function IconResponsibility() {
 export function IconInnovation() {
   return (
     <svg
-      // width="16"
-      // height="16"
       className={styles.svg}
       viewBox="0 0 16 16"
       fill="none"
@@ -259,8 +253,6 @@ export function IconInnovation() {
 export function IconQuality() {
   return (
     <svg
-      // width="16"
-      // height="16"
       className={styles.svg}
       viewBox="0 0 16 16"
       fill="none"

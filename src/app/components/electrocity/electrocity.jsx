@@ -2,7 +2,7 @@ import styles from './electrocity.module.css';
 
 export default function Electrocity() {
   return (
-    <section className={styles.electro_section}>
+    <section className="section" id="electrocity">
       <h2 className={styles.electro_title}>
         Electricity we produced for all time
       </h2>

@@ -9,6 +9,7 @@
   --background-menu-color: rgba(23, 61, 51, 0.75);
 
   --primary-main-color: #173d33;
+  --transparent-main-color: #173d3340;
   --primary-accent-color: #97d28b;
   --primary-light-color: #ffffff;
   --primary-error-color: #d28b8b;
@@ -27,8 +28,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  color: #173d33;
-  background-color: #f3f5fa;
+  color: var(--primary-main-color);
+  background-color: var(--background-main-color);
   scroll-behavior: smooth !important;
   font-family: var(--font-fira);
 }
