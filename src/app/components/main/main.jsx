@@ -7,19 +7,19 @@ import styles from './main.module.css';
 export default function Main() {
   return (
     <section className="section" id="main">
-      <div className={styles.main_continer}>
-        <div className={styles.main_container_title}>
-          <h1 className={styles.main_title}>RENEWABLE ENERGY For any task</h1>
+      <div className={styles.continer}>
+        <div className={styles.container_title}>
+          <h1 className={styles.title}>RENEWABLE ENERGY For any task</h1>
         </div>
 
-        <div className={styles.main_container_info}>
-          <p className={styles.main_text}>
+        <div className={styles.container_info}>
+          <p className={styles.text}>
             Development and implementation of renewable non-polluting energy
             sources, generating power generation using energy wind, sun, water,
             biomass
           </p>
           <Link href={'#cases'}>
-            <button className={styles.main_button}>
+            <button className={styles.button}>
               Learn more
               <span className={styles.icon_span}>
                 <IconArrow />

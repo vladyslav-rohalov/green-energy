@@ -1,8 +1,11 @@
+import styles from './features.module.css';
+
 export function IconOpennes() {
   return (
     <svg
-      width="16"
-      height="16"
+      // width="16"
+      // height="16"
+      className={styles.svg}
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -60,56 +63,70 @@ export function IconOpennes() {
 export function IconResponsibility() {
   return (
     <svg
-      width="16"
-      height="16"
+      // width="16"
+      // height="16"
+      className={styles.svg}
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g id="vuesax/linear/maximize-circle">
-        <g id="maximize-circle">
-          <path
-            id="Vector"
-            d="M11.3333 2H13.9999V4.66667"
-            stroke="#173D33"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_2"
-            d="M10 6L14 2"
-            stroke="#173D33"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_3"
-            d="M4.66667 14H2V11.3334"
-            stroke="#173D33"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_4"
-            d="M6 10L2 14"
-            stroke="#173D33"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_5"
-            d="M9.3466 1.46672C8.91327 1.38005 8.45992 1.33337 7.99992 1.33337C4.31992 1.33337 1.33325 4.32004 1.33325 8.00004C1.33325 8.46004 1.37993 8.90671 1.46659 9.33337"
-            stroke="#173D33"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            id="Vector_6"
-            d="M6.65332 14.5333C7.08665 14.62 7.54 14.6666 8 14.6666C11.68 14.6666 14.6667 11.68 14.6667 7.99996C14.6667 7.54663 14.62 7.09996 14.5333 6.66663"
-            stroke="#173D33"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
+      <g id="vuesax/linear/global-edit">
+        <g id="global-edit">
+          <g id="Group">
+            <path
+              id="Vector"
+              d="M14.6667 8.00004C14.6667 4.32004 11.68 1.33337 8.00004 1.33337C4.32004 1.33337 1.33337 4.32004 1.33337 8.00004C1.33337 11.68 4.32004 14.6667 8.00004 14.6667"
+              stroke="#173D33"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              id="Vector_2"
+              d="M5.33336 2H6.00002C4.70002 5.89333 4.70002 10.1067 6.00002 14H5.33336"
+              stroke="#173D33"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              id="Vector_3"
+              d="M10 2C10.6467 3.94667 10.9733 5.97333 10.9733 8"
+              stroke="#173D33"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              id="Vector_4"
+              d="M2 10.6667V10C3.94667 10.6467 5.97333 10.9733 8 10.9733"
+              stroke="#173D33"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              id="Vector_5"
+              d="M2 5.99978C5.89333 4.69978 10.1067 4.69978 14 5.99978"
+              stroke="#173D33"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </g>
+          <g id="Group_2">
+            <path
+              id="Vector_6"
+              d="M12.8067 10.4933L10.4466 12.8534C10.3533 12.9467 10.2666 13.12 10.2466 13.2467L10.12 14.1467C10.0733 14.4733 10.3 14.7 10.6267 14.6533L11.5266 14.5267C11.6533 14.5067 11.8333 14.42 11.92 14.3267L14.28 11.9667C14.6867 11.56 14.88 11.0867 14.28 10.4867C13.6867 9.89334 13.2133 10.0867 12.8067 10.4933Z"
+              stroke="#173D33"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              id="Vector_7"
+              d="M12.4667 10.8334C12.6667 11.5534 13.2267 12.1134 13.9467 12.3134"
+              stroke="#173D33"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </g>
         </g>
       </g>
     </svg>
@@ -119,8 +136,9 @@ export function IconResponsibility() {
 export function IconInnovation() {
   return (
     <svg
-      width="16"
-      height="16"
+      // width="16"
+      // height="16"
+      className={styles.svg}
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -241,8 +259,9 @@ export function IconInnovation() {
 export function IconQuality() {
   return (
     <svg
-      width="16"
-      height="16"
+      // width="16"
+      // height="16"
+      className={styles.svg}
       viewBox="0 0 16 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -5,18 +5,18 @@
   gap: 12px;
   width: 140px;
   height: 39px;
-  background-color: #97d28b;
+  background-color: var(--primary-accent-color);
   border: none;
   border-radius: 500px;
-  color: #173d33;
+  color: var(--primary-main-color);
   margin-left: 12px;
   cursor: pointer;
   transition: all 0.5s ease;
 }
 
 .button:hover {
-  background-color: #173d33;
-  color: #97d28b;
+  background-color: var(--primary-main-color);
+  color: var(--primary-accent-color);
 }
 
 .button_span {
@@ -25,6 +25,6 @@
   align-items: center;
   width: 14px;
   height: 14px;
-  background-color: #97d28b;
+  background-color: var(--primary-accent-color);
   border-radius: 50%;
 }

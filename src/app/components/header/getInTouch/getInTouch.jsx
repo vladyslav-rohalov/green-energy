@@ -13,7 +13,7 @@ export default function GetInTouch() {
   useEffect(() => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
-      screenWidth < 480 ? setShouldRender(false) : setShouldRender(true);
+      screenWidth < 767 ? setShouldRender(false) : setShouldRender(true);
     };
 
     handleResize();
