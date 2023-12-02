@@ -6,32 +6,38 @@ import styles from './contacts.module.css';
 
 export default function Conatacts() {
   return (
-    <section className={styles.contacts_section} id="contact">
-      <h2 className={styles.contacts_title}>Contact us</h2>
-      <h3 className={styles.contacts_subtitle}>Phone:</h3>
-      <div className={styles.contacts_row}>
-        <IconPhone />
-        <p className={styles.contacts_text}>38 (098) 12 34 567</p>
+    <section className="section" id="contact">
+      <h2 className={styles.title}>Contact us</h2>
+      <div className={styles.container}>
+        <div className={styles.column}>
+          <p className={styles.subtitle}>Phone:</p>
+          <div className={styles.row}>
+            <IconPhone />
+            <p className={styles.text}>38 (098) 12 34 567</p>
+          </div>
+          <div className={`${styles.row} ${styles.margin}`}>
+            <IconPhone />
+            <p className={styles.text}>38 (098) 12 34 567</p>
+          </div>
+          <p className={styles.subtitle}>E-mail:</p>
+          <div className={styles.row}>
+            <IconMail />
+            <p className={styles.text}>office@ecosolution.com</p>
+          </div>
+          <p className={styles.subtitle}>Address:</p>
+          <div className={styles.row}>
+            <IconMap />
+            <p className={styles.text}>
+              79005, Ukraine, Lvivstreet. Shota Rustaveli, 7
+            </p>
+          </div>
+          <p className={styles.subtitle}> Social Networks:</p>
+          <Social />
+        </div>
+        <div className={styles.column}>
+          <FeedbackForm />
+        </div>
       </div>
-      <div className={`${styles.contacts_row} ${styles.contacts_margin}`}>
-        <IconPhone />
-        <p className={styles.contacts_text}>38 (098) 12 34 567</p>
-      </div>
-      <h3 className={styles.contacts_subtitle}>E-mail:</h3>
-      <div className={styles.contacts_row}>
-        <IconMail />
-        <p className={styles.contacts_text}>office@ecosolution.com</p>
-      </div>
-      <h3 className={styles.contacts_subtitle}>Address:</h3>
-      <div className={styles.contacts_row}>
-        <IconMap />
-        <p className={styles.contacts_text}>
-          79005, Ukraine, Lvivstreet. Shota Rustaveli, 7
-        </p>
-      </div>
-      <h3 className={styles.contacts_subtitle}> Social Networks:</h3>
-      <Social />
-      <FeedbackForm />
     </section>
   );
 }
