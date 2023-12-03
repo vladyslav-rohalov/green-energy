@@ -12,9 +12,15 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
+    let scrollTimer;
+
     const handleScroll = () => {
-      const scrollY = window.scrollY;
-      scrollY > 0 ? setIsScrolled(true) : setIsScrolled(false);
+      setIsScrolled(true);
+      clearTimeout(scrollTimer);
+
+      scrollTimer = setTimeout(() => {
+        setIsScrolled(false);
+      }, 2000);
     };
 
     window.addEventListener('scroll', handleScroll);

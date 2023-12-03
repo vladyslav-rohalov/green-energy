@@ -1,3 +1,14 @@
+.footer {
+  margin-top: 36px;
+}
+
+.max_width {
+  max-width: 1400px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -60,6 +71,15 @@
 }
 
 @media (min-width: 768px) {
+  .footer {
+    margin-top: 100px;
+    padding: 0 30px;
+  }
+
+  .max_width {
+    padding: 0 30px;
+  }
+
   .container {
     gap: 24px;
   }
@@ -95,6 +115,14 @@
 }
 
 @media (min-width: 1280px) {
+  .footer {
+    margin-top: 120px;
+  }
+
+  .max_width {
+    padding: 0 100px;
+  }
+
   .column:last-child {
     margin-left: 161px;
   }
