@@ -5,9 +5,11 @@ import AccordionItem from './accordion/item/item';
 import IconDot from '@/app/utils/svg/dot';
 import { accordionData } from './accordion/data';
 import styles from './faq.module.css';
+import Link from 'next/link';
 
 export default function Faq() {
   const [open, setOpen] = useState(0);
+  const [hover, setHover] = useState(false);
 
   const handleOpen = index => {
     setOpen(index);
@@ -50,9 +52,15 @@ export default function Faq() {
             <p className={styles.text}>
               Didn't find the answer to your question?
             </p>
-            <button className={styles.btn}>
-              Contact Us <IconDot />
-            </button>
+            <Link href={'#contact'}>
+              <button
+                className={styles.btn}
+                onMouseMove={() => setHover(true)}
+                onMouseLeave={() => setHover(false)}
+              >
+                Contact Us <IconDot color={hover ? '#97d28b' : '#173d33'} />
+              </button>
+            </Link>
           </div>
         </div>
       </div>

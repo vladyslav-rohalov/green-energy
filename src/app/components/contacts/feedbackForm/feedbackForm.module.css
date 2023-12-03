@@ -42,8 +42,17 @@
   width: 99px;
   height: 39px;
   border: 1px solid var(--primary-accent-color);
+  color: var(--primary-main-color);
   border-radius: 500px;
   padding-left: 16px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.feedback_sbmt_btn:hover {
+  border-color: var(--primary-main-color);
+  background-color: var(--primary-main-color);
+  color: var(--primary-accent-color);
 }
 
 .feedback_btn_icon {
@@ -54,7 +63,13 @@
   height: 32px;
   border-radius: 50%;
   background-color: var(--primary-accent-color);
+  /* transition: background-color 0.5s ease; */
+  cursor: pointer;
 }
+
+/* .feedback_btn_icon:hover {
+  background-color: var(--primary-main-color);
+} */
 
 @media (min-width: 768px) {
   .feedback_form {

@@ -7,6 +7,9 @@ import styles from './cases.module.css';
 
 export default function Cases() {
   const [currentSlide, setCurrentSlide] = useState(1);
+  const [prevBtnColor, setPrevBtnColor] = useState('#173d33');
+  const [nextBtnColor, setNextBtnColor] = useState('#173d33');
+
   const swiperRef = useRef();
 
   const handlePrev = () => {
@@ -34,11 +37,28 @@ export default function Cases() {
             <span className={styles.pointer_span}>/05</span>
           </p>
           <div className={styles.navigate_btn_container}>
-            <button className={styles.navigate_btn} onClick={handlePrev}>
-              <IconArrow width={36} height={36} rotate={180} />
+            <button
+              className={styles.navigate_btn}
+              style={{ borderColor: prevBtnColor }}
+              onClick={handlePrev}
+              onMouseEnter={() => setPrevBtnColor('#97d28b')}
+              onMouseLeave={() => setPrevBtnColor('#173d33')}
+            >
+              <IconArrow
+                width={36}
+                height={36}
+                rotate={180}
+                color={prevBtnColor}
+              />
             </button>
-            <button className={styles.navigate_btn} onClick={handleNext}>
-              <IconArrow width={36} height={36} />
+            <button
+              className={styles.navigate_btn}
+              style={{ borderColor: nextBtnColor }}
+              onClick={handleNext}
+              onMouseEnter={() => setNextBtnColor('#97d28b')}
+              onMouseLeave={() => setNextBtnColor('#173d33')}
+            >
+              <IconArrow width={36} height={36} color={nextBtnColor} />
             </button>
           </div>
         </div>

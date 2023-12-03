@@ -41,6 +41,13 @@
   margin: 24px auto;
   padding: 4px 4px 4px 16px;
   cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  border: 1px solid var(--primary-main-color);
+  background-color: var(--primary-main-color);
+  color: var(--primary-accent-color);
 }
 
 .icon_span {

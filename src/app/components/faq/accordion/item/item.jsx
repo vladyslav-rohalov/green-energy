@@ -10,9 +10,7 @@ export default function AccordionItem({ item, index, open, handleOpen }) {
       <div className={styles.accordion_divider}></div>
       <div
         className={styles.accordion_column}
-        onClick={() => {
-          handleOpen(index);
-        }}
+        onClick={() => handleOpen(index)}
       >
         {isOpen ? (
           <div className={styles.accordion_column_icon}>

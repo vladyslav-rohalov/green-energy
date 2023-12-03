@@ -29,6 +29,7 @@
   line-height: 22px;
   letter-spacing: -0.04em;
   text-align: justify;
+  cursor: pointer;
 }
 
 .accordion_text {

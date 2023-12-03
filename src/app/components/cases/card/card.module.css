@@ -39,7 +39,8 @@
   height: 60px;
   border-radius: 50%;
   border: none;
-  background-color: var(--primary-accent-color);
+  /* background-color: var(--primary-accent-color); */
+  transition: background-color 0.5s ease;
   cursor: pointer;
 }
 

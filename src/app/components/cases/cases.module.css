@@ -46,8 +46,8 @@
   height: 66px;
   border-radius: 50%;
   border: 1px solid;
-  border-color: var(--primary-main-color);
   background-color: transparent;
+  transition: border-color 0.5s ease;
   cursor: pointer;
 }
 

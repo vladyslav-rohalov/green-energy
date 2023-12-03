@@ -1,4 +1,8 @@
-export default function IconDot({ width = 14, height = 14 }) {
+export default function IconDot({
+  color = '#173D33',
+  width = 14,
+  height = 14,
+}) {
   return (
     <svg
       width={width}
@@ -7,7 +11,14 @@ export default function IconDot({ width = 14, height = 14 }) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle id="Ellipse 1" cx="7" cy="7.5" r="7" fill="#173D33" />
+      <circle
+        id="Ellipse 1"
+        cx="7"
+        cy="7.5"
+        r="7"
+        fill={color}
+        style={{ transition: 'fill 0.5s ease' }}
+      />
     </svg>
   );
 }
