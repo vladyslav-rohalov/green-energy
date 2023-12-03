@@ -29,7 +29,9 @@ export default function Faq() {
           />
         ))}
 
-        <p className={styles.text}>Didn't find the answer to your question? </p>
+        <p className={styles.text}>
+          Didn&apos;t find the answer to your question?{' '}
+        </p>
         <button className={styles.btn}>
           Contact Us <IconDot />
         </button>
@@ -50,7 +52,7 @@ export default function Faq() {
           <h2 className={styles.title}>Frequently Asked Questions</h2>
           <div className={styles.container_btn}>
             <p className={styles.text}>
-              Didn't find the answer to your question?
+              Didn&apos;t find the answer to your question?
             </p>
             <Link href={'#contact'}>
               <button

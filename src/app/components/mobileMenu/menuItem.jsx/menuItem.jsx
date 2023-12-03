@@ -15,11 +15,11 @@ export default function MenuItem({ item, activePage, setActivePage }) {
     setActivePage(prev =>
       nameArr.includes(prev.toLowerCase()) ? prev : fragment
     );
-  }, [fragment, name, activePage, setActivePage]);
+  }, [fragment, nameArr, activePage, setActivePage]);
 
   useEffect(() => {
     nameArr.includes(activePage) ? setColor('#FFFFFF') : setColor('#FFFFFF40');
-  }, [activePage, name]);
+  }, [activePage, nameArr]);
 
   const handleEnter = () => {
     if (nameArr.includes(activePage)) return;
